@@ -39,7 +39,7 @@ export default function Navbar() {
             </a>
             <button className="rounded-2xl border-2 border-black px-3 text-xs font-semibold py-1">Design Journal</button>
           </div>
-        <div className="hidden md:flex items-center gap-5">
+        <div className="hidden lg:flex items-center gap-5">
             <ul className="flex items-center gap-3">
                 <li className="text-sm font-semibold">Home</li>
                 <li className="text-sm font-semibold flex items-center gap-0.5">Product
@@ -74,7 +74,7 @@ export default function Navbar() {
         </div>
 
          
-          <ul className="md:hidden flex items-center ">
+          <ul className="lg:hidden flex items-center ">
             <li className=" grid items-center">
               <button
                 className={`flex items-center gap-0.5  ${
