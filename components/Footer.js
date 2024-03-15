@@ -2,10 +2,10 @@ export default function Footer() {
     return (
        <>
        <div className="my-4 app-container">
-       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-      <div className="flex flex-col gap-3">
+       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4  items-start place-items-center ">
+      <div className="grid gap-3">
         <h1 className="text-slate-700/90 font-semibold">Product</h1> 
-        <ul className="flex flex-col gap-2 items-start">
+        <ul className="grid gap-2 items-start">
            
             <li className="font-semibold">Overview</li>
             <li className="font-semibold">Feastures</li>
@@ -16,9 +16,9 @@ export default function Footer() {
 
         </ul>
        </div>
-       <div className="flex flex-col gap-3">
+       <div className="grid gap-3">
         <h1 className="text-slate-700/90 font-semibold">Company</h1> 
-        <ul className="flex flex-col gap-2 items-start">
+        <ul className="grid gap-2 items-start">
            
             <li className="font-semibold">About us</li>
             <li className="font-semibold">Careers</li>
@@ -29,9 +29,9 @@ export default function Footer() {
 
         </ul>
        </div>
-       <div className="flex flex-col gap-3">
+       <div className="grid gap-3">
         <h1 className="text-slate-700/90 font-semibold">Resourses</h1> 
-        <ul className="flex flex-col gap-2 items-start">
+        <ul className="grid gap-2 items-start">
            
             <li className="font-semibold">Blog</li>
             <li className="font-semibold">Newsletter</li>
@@ -42,9 +42,9 @@ export default function Footer() {
 
         </ul>
        </div>
-       <div className="flex flex-col gap-3">
+       <div className="grid gap-3">
         <h1 className="text-slate-700/90 font-semibold">Use Cases</h1> 
-        <ul className="flex flex-col gap-2 items-start">
+        <ul className="grid gap-2 items-start">
            
             <li className="font-semibold">Startups</li>
             <li className="font-semibold">Enterprise</li>
@@ -55,9 +55,9 @@ export default function Footer() {
 
         </ul>
        </div>
-       <div className="flex flex-col gap-3">
+       <div className="grid gap-3">
         <h1 className="text-slate-700/90 font-semibold">Social</h1> 
-        <ul className="flex flex-col gap-2 items-start">
+        <ul className="grid gap-2 items-start">
            
             <li className="font-semibold">Twiter</li>
             <li className="font-semibold">Linkdin</li>
@@ -68,9 +68,9 @@ export default function Footer() {
 
         </ul>
        </div>
-       <div className="flex flex-col gap-3">
+       <div className="grid gap-3">
         <h1 className="text-slate-700/90 font-semibold">Legal</h1> 
-        <ul className="flex flex-col gap-2 items-start">
+        <ul className="grid gap-2 items-start">
            
             <li className="font-semibold">Term</li>
             <li className="font-semibold">Privacy</li>

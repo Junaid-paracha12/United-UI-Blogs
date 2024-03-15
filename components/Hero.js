@@ -5,7 +5,7 @@ export default function Hero({ imgsrc, title, text,subtitle,}) {
     <>
       <div className="relative mt-14">
        
-            <Image src={imgsrc} width={3000} height={3000} alt="img"   className="h-[100vh] w-full object-fill md:object-cover rounded-xl"/>
+            <Image src={imgsrc} width={3000} height={3000} alt="img"   className="h-[70vh] md:h-[100vh] w-full object-fill md:object-cover rounded-xl"/>
         <div className="absolute bottom-0 p-5 w-full">
             <div className="bg-slate-700 bg-opacity-50 p-6 rounded-xl">
         <div className="flex flex-col gap-2 md:gap-4 max-w-4xl">
