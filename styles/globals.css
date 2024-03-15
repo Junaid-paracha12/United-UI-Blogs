@@ -10,7 +10,7 @@
  
   }
   .app-container{
-    @apply w-[97vw] m-auto;
+    @apply w-[96vw] m-auto;
   }
   .button-style{
     @apply bg-slate-300/60 text-sm text-blue-600 rounded-md px-4 py-1.5 font-semibold;
