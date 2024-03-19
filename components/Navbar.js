@@ -31,13 +31,13 @@ export default function Navbar() {
         } transition-all duration-300 `}
       >
         <nav className=" flex items-center justify-between px-3">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1 sm:gap-3">
             <a href="/" className="flex items-center ">
-              <h1 className="text-xl lg:text-2xl font-semibold pr-1">
+              <h1 className="text-lg md:text-xl lg:text-2xl font-semibold pr-1">
                 United UI
               </h1>
             </a>
-            <button className="rounded-2xl border-2 border-black px-3 text-xs font-semibold py-1">Design Journal</button>
+            <button className="rounded-2xl border-2 border-black px-1.5 md:px-3 text-xs font-semibold py-0.5 md:py-1">Design Journal</button>
           </div>
         <div className="hidden lg:flex items-center gap-5">
             <ul className="flex items-center gap-3">

@@ -83,8 +83,8 @@ export default function Footer() {
        </div>
        </div>
        <div className="h-0.5 bg-slate-300/70 my-7"></div>
-       <div className="flex items-center justify-between">
-        <h1 className="text-xl md:text-2xl font-bold">United UI</h1>
+       <div className="flex flex-col sm:flex-row items-center justify-between">
+        <h1 className="text-lg sm:text-xl md:text-2xl font-bold">United UI</h1>
         <p className="font-semibold text-xs">&copy; Copyright All reserve rights 2024.</p>
        </div>
        </div>
